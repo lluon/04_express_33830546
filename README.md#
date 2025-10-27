@@ -1,0 +1,42 @@
+# Express Route Demo Application
+
+A simple **Node.js + Express** application demonstrating modular route handling.  
+The app serves different endpoints for `/`, `/about`, `/contact`, and `/date`.
+
+---
+
+## Overview
+
+This project showcases a clean and modular approach to handling routes in an Express server.  
+Each route is separated into its own file within the `routes/` directory, making the application easy to maintain and extend.
+
+### Available Routes
+
+| Route       | Description                        |
+|--------------|------------------------------------|
+| `/`          | Home route                         |
+| `/about`     | About page                         |
+| `/contact`   | Contact information route           |
+| `/date`      | Displays the current date and time  |
+
+---
+
+##  Technologies Used
+
+- **Node.js** - JavaScript runtime environment for server-side execution.  
+- **Express.js** - Fast, unopinionated, minimalist web framework for Node.js.  
+- **npm** - Node package manager used to install project dependencies.
+- ** inline html** - asking around we are not yet on how to build an external css reference file.
+---
+
+##  Project Structure
+├── index.js # Main entry point for the server
+├── package.json # Project metadata and dependencies
+├── package-lock.json # Locked versions of installed dependencies
+├── .gitignore # Ignored files from express installation
+├── routes/ # Folder containing route modules
+│ ├── about.js
+│ ├── contact.js
+│ ├── date.js
+│ └── home.js
+└── links.txt # Additional resource or reference links
